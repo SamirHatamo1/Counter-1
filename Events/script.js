@@ -1,7 +1,7 @@
-
+const container = document.querySelector('.container');
 const content = document.querySelector('.content');
-const plus = document.querySelector('.plus');
-const minus = document.querySelector('.minus');
+const plus = document.querySelector('#plus');
+const minus = document.querySelector('#minus');
 
 plus.addEventListener('click', () => {
     let result = content.innerHTML;
