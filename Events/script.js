@@ -7,12 +7,16 @@ plus.addEventListener('click', () => {
     let result = content.innerHTML;
     result++;
     content.innerHTML = result;
-
+    if(result === 11) {
+        content.innerHTML = 0;
+    }
 });
 
 minus.addEventListener('click', () => {
     let result = content.innerHTML;
     result--;
     content.innerHTML = result;
-
+    if(result === -1) {
+        content.innerHTML = 0;
+    }
 });
