@@ -8,7 +8,7 @@ plus.addEventListener('click', () => {
     result++;
     content.innerHTML = result;
     if(result === 11) {
-        content.innerHTML = 0;
+        content.innerHTML = 10;
     }
 });
 
